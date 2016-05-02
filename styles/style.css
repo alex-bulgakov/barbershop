@@ -1,0 +1,85 @@
+body {
+  min-width: 800px;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-color: black;
+  color: white;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  padding: 5px 0;
+}
+
+.container {
+  min-height: 20px;
+  padding: 5px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  min-height: 50px;
+  width: 520px;
+  float: left;
+}
+
+.user-block {
+  min-height: 50px;
+  width: 90px;
+  float: right;
+}
+
+.logo {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.features-item {
+  width: 300px;
+  min-height: 30px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 55px;
+  background: url("../img/background2.jpg");
+  color: black;
+  margin-bottom: 35px;
+}
+
+.content-column-left, .content-column-right {
+  width: 300px;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.content-column-left {
+  float: left;
+}
+.content-column-right {
+  float: right;
+  margin-right: 0;
+}
+
+.column-splitter {
+  float: left;
+  min-height: 300px;
+  width: 130px;
+  background-image: url("../img/splitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
