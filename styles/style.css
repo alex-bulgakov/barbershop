@@ -1,12 +1,20 @@
 body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
   min-width: 800px;
   margin: 0;
   padding: 0;
-  background-image: url("../img/background.png");
+  background: black url("../img/background.png") no-repeat center;
+/*
   background-repeat: no-repeat;
   background-position: cover;
   background-color: black;
-  color: white;
+*/
+  
 }
 
 .clearfix {
@@ -19,14 +27,14 @@ body {
 .main-header {
   padding: 5px 0;
   background-color: black;
+  margin-bottom: 60px;
 }
 
 
 .container {
-  min-height: 20px;
-  padding: 0 10px;
   width: 940px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .main-navigation {
@@ -71,7 +79,7 @@ body {
 /*index*/
 .features-item {
   width: 300px;
-  min-height: 30px;
+  min-height: 200px;
   float: left;
   margin-right: 20px;
   text-align: center;
@@ -82,7 +90,8 @@ body {
 
 .index-content {
   width: 820px;
-  padding: 60px;
+  min-height: 330px;
+  padding: 50px 60px;
   background: url("../img/background2.jpg");
   color: black;
   margin-bottom: 35px;
@@ -167,5 +176,30 @@ body {
 .items-nav {
   clear: both;
   padding-top: 45px;
-/*  padding-bottom: 45px;*/
+}
+
+/*item1*/
+.items-gallery {
+  width: 460px;
+  float: left;
+  font-size: 0;
+  margin-right: 20px;
+}
+
+.items-gallery img:nth-child(3) {
+  margin: 0 20px;
+}
+
+.items-gallery img:last-child() {
+  margin-right: 0;
+}
+
+.gallery-main-image {
+  margin-bottom: 20px;
+}
+
+.items-right-column {
+  width: 400px;
+  padding-left: 60px;
+  float: right;
 }
